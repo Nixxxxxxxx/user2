@@ -1,0 +1,4 @@
+.idea/
+.gitignore/
+manage.py/
+db.sqlite3/
