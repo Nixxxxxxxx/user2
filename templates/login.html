@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<body>
+                <form method='post' action='/login/'>
+                    username：<input type='text' name='username' value="{{ username }}"/><br/>
+                    password：<input type='password' name='password' value="{{ password }}"/><br/>
+                    <input type="checkbox" name="remember" value="true">记住登录
+                    <input type='submit' value='登录' />
+                </form>
+</body>
+</html>
